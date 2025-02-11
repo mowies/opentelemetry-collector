@@ -55,6 +55,8 @@ Below are some more examples that can be used for reference:
 
 You can run `cd cmd/mdatagen && $(GOCMD) install .` to install the `mdatagen` tool in `GOBIN` and then run `mdatagen metadata.yaml` to generate documentation for a specific component or you can run `make generate` to generate documentation for all components.
 
+dfgdfghdfghdfghdfghdfghdfgh
+
 ### Generate multiple metadata packages
 
 By default, `mdatagen` will generate a package called `metadata` in the `internal` directory. If you want to generate a package with a different name, you can use the `generated_package_name` configuration field to provide an alternate name.
