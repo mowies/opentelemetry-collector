@@ -30,6 +30,8 @@ if [[ -z "${COMPONENT:-}" ]]; then
     exit 1
 fi
 
+echo "Looking up codeowners of component ${COMPONENT}..."
+
 OWNERS="$(get_codeowners "${COMPONENT}")"
 
 if [[ -z "${OWNERS:-}" ]]; then
