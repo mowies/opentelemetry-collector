@@ -48,6 +48,9 @@ for COMPONENT in ${BODY_COMPONENTS}; do
 
   CODEOWNERS=$(COMPONENT="${COMPONENT}" "${CUR_DIRECTORY}/get-codeowners.sh" || true)
 
+  echo "result from get-codeowners: $CODEOWNERS"
+  echo "issue opener: $OPENER"
+
   if [[ -n "${CODEOWNERS}" && ! ("${CODEOWNERS}" =~ ${OPENER}) ]]; then
     if [[ -v PINGED_COMPONENTS["${COMPONENT}"] ]]; then
       continue
