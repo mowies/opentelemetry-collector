@@ -211,6 +211,8 @@ the role of the [release manager](./docs/release.md#release-manager).
 
 Thanks to all the people who already contributed!
 
+blablabla
+
 <a href="https://github.com/open-telemetry/opentelemetry-collector/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=open-telemetry/opentelemetry-collector" />
 </a>
