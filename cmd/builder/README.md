@@ -1,4 +1,4 @@
-# OpenTelemetry Collector Builder (ocb)
+# OpenTelemetry Collector Builder (ocb) bla
 
 This program generates a custom OpenTelemetry Collector binary based on a given configuration.
 
