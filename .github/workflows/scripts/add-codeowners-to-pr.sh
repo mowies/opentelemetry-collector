@@ -59,9 +59,11 @@ main () {
         # won't be checked against the remaining components in the components
         # list. This provides a meaningful speedup in practice.
         for FILE in ${FILES}; do
+            echo "current file: ${FILE}"
             MATCH=$(echo -n "${FILE}" | grep -E "^${COMPONENT}" || true)
 
             if [[ -z "${MATCH}" ]]; then
+                echo "found match"
                 continue
             fi
 
@@ -75,6 +77,7 @@ main () {
             PROCESSED_COMPONENTS["${COMPONENT}"]=true
 
             OWNERS=$(COMPONENT="${COMPONENT}" bash "${CUR_DIRECTORY}/get-codeowners.sh")
+            echo "found the following owners for ${COMPONENT}: ${OWNERS}"
 
             for OWNER in ${OWNERS}; do
                 # Users that leave reviews are removed from the "requested reviewers"
