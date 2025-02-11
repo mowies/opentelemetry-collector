@@ -15,40 +15,40 @@
 
 # Start components list
 
-cmd/mdatagen/                            @odubajDT
-cmd/mdatagen/internal/sampleprocessor/   @odubajDT
-cmd/mdatagen/internal/samplereceiver/    @odubajDT
-cmd/mdatagen/internal/samplescraper/     @odubajDT
-confmap/                                 @odubajDT
-connector/forwardconnector/              @odubajDT
-connector/xconnector/                    @odubajDT
-consumer/xconsumer/                      @odubajDT
-docs/rfcs/                               @odubajDT
-exporter/debugexporter/                  @odubajDT
-exporter/exporterhelper/                 @odubajDT
-exporter/exporterhelper/xexporterhelper/ @odubajDT
-exporter/exporterqueue/                  @odubajDT
-exporter/nopexporter/                    @odubajDT
-exporter/otlpexporter/                   @odubajDT
-exporter/otlphttpexporter/               @odubajDT
-exporter/xexporter/                      @odubajDT
-extension/memorylimiterextension/        @odubajDT
-extension/xextension/                    @odubajDT
-extension/zpagesextension/               @odubajDT
-pdata/                                   @odubajDT
-pdata/pprofile/                          @odubajDT
-processor/batchprocessor/                @odubajDT
-processor/memorylimiterprocessor/        @odubajDT
-processor/processorhelper/               @odubajDT
-processor/xprocessor/                    @odubajDT
-receiver/nopreceiver/                    @odubajDT
-receiver/otlpreceiver/                   @odubajDT
-receiver/receiverhelper/                 @odubajDT
-receiver/xreceiver/                      @odubajDT
-scraper/                                 @odubajDT
-scraper/scraperhelper/                   @odubajDT
-service/                                 @odubajDT
-service/internal/graph/                  @odubajDT
+cmd/mdatagen/                            @mowies @odubajDT
+cmd/mdatagen/internal/sampleprocessor/   @mowies @odubajDT
+cmd/mdatagen/internal/samplereceiver/    @mowies @odubajDT
+cmd/mdatagen/internal/samplescraper/     @mowies @odubajDT
+confmap/                                 @mowies @odubajDT
+connector/forwardconnector/              @mowies @odubajDT
+connector/xconnector/                    @mowies @odubajDT
+consumer/xconsumer/                      @mowies @odubajDT
+docs/rfcs/                               @mowies @odubajDT
+exporter/debugexporter/                  @mowies @odubajDT
+exporter/exporterhelper/                 @mowies @odubajDT
+exporter/exporterhelper/xexporterhelper/ @mowies @odubajDT
+exporter/exporterqueue/                  @mowies @odubajDT
+exporter/nopexporter/                    @mowies @odubajDT
+exporter/otlpexporter/                   @mowies @odubajDT
+exporter/otlphttpexporter/               @mowies @odubajDT
+exporter/xexporter/                      @mowies @odubajDT
+extension/memorylimiterextension/        @mowies @odubajDT
+extension/xextension/                    @mowies @odubajDT
+extension/zpagesextension/               @mowies @odubajDT
+pdata/                                   @mowies @odubajDT
+pdata/pprofile/                          @mowies @odubajDT
+processor/batchprocessor/                @mowies @odubajDT
+processor/memorylimiterprocessor/        @mowies @odubajDT
+processor/processorhelper/               @mowies @odubajDT
+processor/xprocessor/                    @mowies @odubajDT
+receiver/nopreceiver/                    @mowies @odubajDT
+receiver/otlpreceiver/                   @mowies @odubajDT
+receiver/receiverhelper/                 @mowies @odubajDT
+receiver/xreceiver/                      @mowies @odubajDT
+scraper/                                 @mowies @odubajDT
+scraper/scraperhelper/                   @mowies @odubajDT
+service/                                 @mowies @odubajDT
+service/internal/graph/                  @mowies @odubajDT
 
 # End components list
 
