@@ -15,40 +15,40 @@
 
 # Start components list
 
-cmd/mdatagen/                            @mowies
-cmd/mdatagen/internal/sampleprocessor/   @mowies
-cmd/mdatagen/internal/samplereceiver/    @mowies
-cmd/mdatagen/internal/samplescraper/     @mowies
-confmap/                                 @mowies
-connector/forwardconnector/              @mowies
-connector/xconnector/                    @mowies
-consumer/xconsumer/                      @mowies
-docs/rfcs/                               @mowies
-exporter/debugexporter/                  @mowies
-exporter/exporterhelper/                 @mowies
-exporter/exporterhelper/xexporterhelper/ @mowies
-exporter/exporterqueue/                  @mowies
-exporter/nopexporter/                    @mowies
-exporter/otlpexporter/                   @mowies
-exporter/otlphttpexporter/               @mowies
-exporter/xexporter/                      @mowies
-extension/memorylimiterextension/        @mowies
-extension/xextension/                    @mowies
-extension/zpagesextension/               @mowies
-pdata/                                   @mowies
-pdata/pprofile/                          @mowies
-processor/batchprocessor/                @mowies
-processor/memorylimiterprocessor/        @mowies
-processor/processorhelper/               @mowies
-processor/xprocessor/                    @mowies
-receiver/nopreceiver/                    @mowies
-receiver/otlpreceiver/                   @mowies
-receiver/receiverhelper/                 @mowies
-receiver/xreceiver/                      @mowies
-scraper/                                 @mowies
-scraper/scraperhelper/                   @mowies
-service/                                 @mowies
-service/internal/graph/                  @mowies
+cmd/mdatagen/                            @odubajDT
+cmd/mdatagen/internal/sampleprocessor/   @odubajDT
+cmd/mdatagen/internal/samplereceiver/    @odubajDT
+cmd/mdatagen/internal/samplescraper/     @odubajDT
+confmap/                                 @odubajDT
+connector/forwardconnector/              @odubajDT
+connector/xconnector/                    @odubajDT
+consumer/xconsumer/                      @odubajDT
+docs/rfcs/                               @odubajDT
+exporter/debugexporter/                  @odubajDT
+exporter/exporterhelper/                 @odubajDT
+exporter/exporterhelper/xexporterhelper/ @odubajDT
+exporter/exporterqueue/                  @odubajDT
+exporter/nopexporter/                    @odubajDT
+exporter/otlpexporter/                   @odubajDT
+exporter/otlphttpexporter/               @odubajDT
+exporter/xexporter/                      @odubajDT
+extension/memorylimiterextension/        @odubajDT
+extension/xextension/                    @odubajDT
+extension/zpagesextension/               @odubajDT
+pdata/                                   @odubajDT
+pdata/pprofile/                          @odubajDT
+processor/batchprocessor/                @odubajDT
+processor/memorylimiterprocessor/        @odubajDT
+processor/processorhelper/               @odubajDT
+processor/xprocessor/                    @odubajDT
+receiver/nopreceiver/                    @odubajDT
+receiver/otlpreceiver/                   @odubajDT
+receiver/receiverhelper/                 @odubajDT
+receiver/xreceiver/                      @odubajDT
+scraper/                                 @odubajDT
+scraper/scraperhelper/                   @odubajDT
+service/                                 @odubajDT
+service/internal/graph/                  @odubajDT
 
 # End components list
 
@@ -60,10 +60,10 @@ service/internal/graph/                  @mowies
 
 # Start distribution list
 
-reports/distributions/core.yaml    @mowies
-reports/distributions/contrib.yaml @mowies
-reports/distributions/k8s.yaml     @mowies
-reports/distributions/otlp.yaml    @mowies
+reports/distributions/core.yaml    @odubajDT
+reports/distributions/contrib.yaml @odubajDT
+reports/distributions/k8s.yaml     @odubajDT
+reports/distributions/otlp.yaml    @odubajDT
 
 # End distribution list
 
