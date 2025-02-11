@@ -19,6 +19,7 @@ PING_LINES=""
 declare -A PINGED_COMPONENTS
 
 TITLE_COMPONENT=$(echo "${TITLE}" | (grep -oE "\[.+\]" || true) | sed -E 's/\[(.+)\]/\1/' | sed -E 's%^(.+)/(.+)\1%\1/\2%')
+echo "Component in title: ${TITLE_COMPONENT}"
 
 COMPONENTS_SECTION_START=$( (echo "${BODY}" | grep -n '### Component(s)' | awk '{ print $1 }' | grep -oE '[0-9]+') || echo '-1' )
 BODY_COMPONENTS=""
@@ -26,6 +27,7 @@ BODY_COMPONENTS=""
 if [[ "${COMPONENTS_SECTION_START}" != '-1' ]]; then
   BODY_COMPONENTS=$(echo "${BODY}" | sed -n $((COMPONENTS_SECTION_START+2))p)
 fi
+echo "Components in body: ${BODY_COMPONENTS}"
 
 if [[ -n "${TITLE_COMPONENT}" && ! ("${TITLE_COMPONENT}" =~ " ") ]]; then
   CODEOWNERS=$(COMPONENT="${TITLE_COMPONENT}" "${CUR_DIRECTORY}/get-codeowners.sh" || true)
